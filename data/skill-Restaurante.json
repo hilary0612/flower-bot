@@ -1,100 +1,22 @@
 {
   "intents": [
     {
-      "intent": "saludos",
-      "examples": [
-        {
-          "text": "hii"
-        },
-        {
-          "text": "hellooo"
-        },
-        {
-          "text": "hi bot"
-        },
-        {
-          "text": "hi Charlo Bot"
-        },
-        {
-          "text": "good afternoon"
-        },
-        {
-          "text": "good morning"
-        },
-        {
-          "text": "good evening"
-        },
-        {
-          "text": "what's up"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "reseteo",
-      "examples": [
-        {
-          "text": "i would like to do this once again"
-        },
-        {
-          "text": "i want to start again"
-        },
-        {
-          "text": "i want to do this once again"
-        },
-        {
-          "text": "once again"
-        },
-        {
-          "text": "i have a mistake"
-        },
-        {
-          "text": "i would like to start again"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "ayuda_gluten",
-      "examples": [
-        {
-          "text": "i don´t understand what gluten is"
-        },
-        {
-          "text": "explain me what gluten is"
-        },
-        {
-          "text": "tell me about gluten"
-        },
-        {
-          "text": "i don't have idea what gluten is"
-        },
-        {
-          "text": "i don't know what gluten is"
-        },
-        {
-          "text": "what is gluten"
-        },
-        {
-          "text": "do you know what gluten is"
-        },
-        {
-          "text": "I have a doubt about what gluten is"
-        }
-      ],
-      "description": ""
-    },
-    {
       "intent": "no_sabe",
       "examples": [
-        {
-          "text": "I no have idea"
-        },
         {
           "text": "i don't know"
         },
         {
+          "text": "it is difficult to choose"
+        },
+        {
+          "text": "I no have idea"
+        },
+        {
           "text": "i am in doubt"
+        },
+        {
+          "text": "i am confuse"
         }
       ],
       "description": ""
@@ -103,49 +25,22 @@
       "intent": "no_quiero",
       "examples": [
         {
-          "text": "i don't want"
-        },
-        {
-          "text": "noooo"
-        },
-        {
           "text": "other day"
         },
         {
           "text": "not today"
         },
         {
-          "text": "no"
-        },
-        {
           "text": "in other moment"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "gracias",
-      "examples": [
-        {
-          "text": "good recommendation"
         },
         {
-          "text": "thanks"
+          "text": "noooo"
         },
         {
-          "text": "thank you"
+          "text": "i don't want"
         },
         {
-          "text": "thank you for your recommendation"
-        },
-        {
-          "text": "i like the recommendation"
-        },
-        {
-          "text": "thank you very much"
-        },
-        {
-          "text": "thak you a lot"
+          "text": "no"
         }
       ],
       "description": ""
@@ -154,40 +49,28 @@
       "intent": "adios",
       "examples": [
         {
+          "text": "bye bye"
+        },
+        {
           "text": "see you later"
         },
         {
-          "text": "bye"
-        },
-        {
-          "text": "bye bye"
+          "text": "goodbye"
         },
         {
           "text": "until tomorrow"
         },
         {
-          "text": "goodbye"
+          "text": "bye"
         }
       ],
       "description": ""
     },
     {
-      "intent": "preguntas_generales",
+      "intent": "acepto",
       "examples": [
         {
-          "text": "i accept"
-        },
-        {
-          "text": "yes"
-        },
-        {
-          "text": "okay"
-        },
-        {
-          "text": "i would like some recommendations"
-        },
-        {
-          "text": "sure"
+          "text": "i agree"
         },
         {
           "text": "ok"
@@ -205,13 +88,145 @@
           "text": "i would like it"
         },
         {
-          "text": "i agree"
+          "text": "yeees"
+        },
+        {
+          "text": "i do"
         },
         {
           "text": "oks"
         },
         {
-          "text": "yeees"
+          "text": "yes"
+        },
+        {
+          "text": "okay"
+        },
+        {
+          "text": "i would like some recommendations"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "i accept"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "reseteo",
+      "examples": [
+        {
+          "text": "once again"
+        },
+        {
+          "text": "i would like to do this once again"
+        },
+        {
+          "text": "i have a mistake"
+        },
+        {
+          "text": "other"
+        },
+        {
+          "text": "i want to start again"
+        },
+        {
+          "text": "i would like to start again"
+        },
+        {
+          "text": "i want to do this once again"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "gracias",
+      "examples": [
+        {
+          "text": "good recommendation"
+        },
+        {
+          "text": "thank you for your recommendation"
+        },
+        {
+          "text": "thak you a lot"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "i like the recommendation"
+        },
+        {
+          "text": "thank you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ayuda_gluten",
+      "examples": [
+        {
+          "text": "i don't have idea what gluten is"
+        },
+        {
+          "text": "i don´t understand what gluten is"
+        },
+        {
+          "text": "explain me what gluten is"
+        },
+        {
+          "text": "tell me about gluten"
+        },
+        {
+          "text": "can you explain me that?"
+        },
+        {
+          "text": "do you know what gluten is"
+        },
+        {
+          "text": "I have a doubt about what gluten is"
+        },
+        {
+          "text": "i don't know what gluten is"
+        },
+        {
+          "text": "what is gluten"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saludos",
+      "examples": [
+        {
+          "text": "hii"
+        },
+        {
+          "text": "hellooo"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "hi bot"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "what's up"
+        },
+        {
+          "text": "hi bot buffet"
         }
       ],
       "description": ""
@@ -219,27 +234,84 @@
   ],
   "entities": [
     {
-      "entity": "tipo_salsas_integradas",
+      "entity": "tipo_picante",
       "values": [
         {
           "type": "synonyms",
-          "value": "without sauce",
-          "synonyms": []
+          "value": "spicy",
+          "synonyms": [
+            "very spicy",
+            "so spicy"
+          ]
         },
         {
           "type": "synonyms",
-          "value": "sauce",
+          "value": "without spicy",
           "synonyms": [
-            "with sauce",
-            "con salsa"
+            "no spicy"
           ]
         }
       ],
       "fuzzy_match": true
     },
     {
+      "entity": "tipo_agridulce",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "sweet",
+          "synonyms": [
+            "much sweet",
+            "less salty"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "salty",
+          "synonyms": [
+            "without sweet",
+            "with salty",
+            "more salty",
+            "less sweet"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo_grasa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "moderate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "light",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fatty",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
       "entity": "tipo_comida",
       "values": [
+        {
+          "type": "synonyms",
+          "value": "creole",
+          "synonyms": []
+        },
         {
           "type": "synonyms",
           "value": "oriental",
@@ -252,91 +324,6 @@
           "value": "pastas",
           "synonyms": [
             "pasta"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "creole",
-          "synonyms": []
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "tipo_picante",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "without spicy",
-          "synonyms": [
-            "no spicy"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "spicy",
-          "synonyms": [
-            "very spicy",
-            "so spicy"
-          ]
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "tipo_grasa",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "fatty",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "light",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "moderate",
-          "synonyms": []
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "tipo_gluten",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "gluten free",
-          "synonyms": [
-            "without gluten"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "gluten",
-          "synonyms": [
-            "with gluten"
-          ]
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "tipo_agridulce",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "sweet",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "salty",
-          "synonyms": [
-            "without sweet"
           ]
         }
       ],
@@ -352,7 +339,7 @@
         },
         {
           "type": "synonyms",
-          "value": "hen",
+          "value": "chicken",
           "synonyms": []
         },
         {
@@ -362,15 +349,67 @@
         },
         {
           "type": "synonyms",
-          "value": "chicken",
+          "value": "hen",
           "synonyms": []
         }
       ],
       "fuzzy_match": true
     },
     {
-      "entity": "sys-person",
-      "values": [],
+      "entity": "tipo_gluten",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "gluten",
+          "synonyms": [
+            "with gluten"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gluten free",
+          "synonyms": [
+            "without gluten",
+            "free gluten"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "elegir",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "don't",
+          "synonyms": [
+            "wouldn't",
+            "can't",
+            "haven't",
+            "disagree",
+            "dislike",
+            "not",
+            "hate",
+            "no"
+          ]
+        }
+      ],
       "fuzzy_match": true
     }
   ],
@@ -386,7 +425,26 @@
       "output": {
         "text": {
           "values": [
-            "Do you like  beef ,chiken ,hen or fish meat"
+            "$person , you need to respond the question"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1578083263582",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "#no_sabe",
+      "event_name": "nomatch",
+      "dialog_node": "handler_10_1578841279836",
+      "previous_sibling": "handler_2_1578083263600"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Do you like  beef ,chicken ,hen or fish meat"
           ],
           "selection_policy": "sequential"
         }
@@ -410,52 +468,203 @@
     {
       "type": "event_handler",
       "output": {
-        "text": {
-          "values": [
-            "Do you like you meals have a sauce or without sauce?"
-          ],
-          "selection_policy": "sequential"
-        }
+        "generic": []
       },
-      "parent": "slot_5_1578083366428",
-      "event_name": "focus",
-      "dialog_node": "handler_2_1578083366442",
-      "previous_sibling": "handler_4_1578083366442"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_5_1578083366428",
+      "parent": "slot_2_1578082990634",
       "context": {
-        "tipo_salsa_integradas": "@tipo_salsas_integradas"
+        "tipo_picante": "spicy"
       },
-      "conditions": "@tipo_salsas_integradas",
-      "event_name": "input",
-      "dialog_node": "handler_4_1578083366442"
-    },
-    {
-      "type": "slot",
-      "parent": "node_4_1578083513327",
-      "dialog_node": "slot_6_1578083692129",
-      "previous_sibling": "handler_1_1578083888212"
+      "conditions": "@no &&  @tipo_picante:(without spicy)",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1578513630340",
+      "previous_sibling": "handler_2_1578513424452"
     },
     {
       "type": "event_handler",
-      "parent": "node_4_1578083513327",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you like spicy food or without spicy"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1578082990634",
       "event_name": "focus",
-      "dialog_node": "handler_1_1578083888212"
+      "dialog_node": "handler_9_1578082990639",
+      "previous_sibling": "handler_8_1578082990639"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_2_1578082990634",
+      "context": {
+        "tipo_picante": "without spicy"
+      },
+      "conditions": "@no && @tipo_picante:spicy",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1578513424452",
+      "previous_sibling": "handler_9_1578082990639"
     },
     {
       "type": "event_handler",
       "output": {
         "text": {
           "values": [
-            "Hi my dear user ,I am Charlo Bot and i'm here to recommend  the best dish according your preferences, What is your name?"
+            "$person , you need to respond the question"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1578082990634",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "#no_sabe",
+      "event_name": "nomatch",
+      "dialog_node": "handler_10_1578841255664",
+      "previous_sibling": "handler_5_1578513630340"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1578082990634",
+      "context": {
+        "tipo_picante": "@tipo_picante"
+      },
+      "conditions": "@tipo_picante",
+      "event_name": "input",
+      "dialog_node": "handler_8_1578082990639"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Bienvenido",
+      "variable": "$person",
+      "dialog_node": "slot_6_1578251338478",
+      "previous_sibling": "node_5_1578271080319"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Bienvenido",
+      "disabled": true,
+      "conditions": "#saludos",
+      "dialog_node": "response_2_1578084354059",
+      "previous_sibling": "response_3_1578084341112"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola soy el Bot Buffet y estoy para recomendarte el mejor plato de acuerdo a tus preferencias."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenido",
+      "disabled": true,
+      "conditions": "welcome",
+      "dialog_node": "response_3_1578084341112",
+      "previous_sibling": "slot_6_1578251338478"
+    },
+    {
+      "type": "standard",
+      "title": "no_quiero",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No problem $person see you later"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenido",
+      "conditions": "#no_quiero",
+      "dialog_node": "node_5_1578271080319"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Do you have preferences to fatty , moderate or light food?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1578083338201",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1578083338212",
+      "previous_sibling": "handler_7_1578083338212"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "$person , you need to respond the question"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1578083338201",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "#no_sabe",
+      "event_name": "nomatch",
+      "dialog_node": "handler_9_1578841318102",
+      "previous_sibling": "handler_5_1578083338212"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1578083338201",
+      "context": {
+        "tipo_grasa": "@tipo_grasa"
+      },
+      "conditions": "@tipo_grasa",
+      "event_name": "input",
+      "dialog_node": "handler_7_1578083338212"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Hi my dear user ,I am Bot Buffet and i'm here to recommend  the best dish according your preferences therefore i will ask you some question but before what is your name?"
           ],
           "selection_policy": "sequential"
         }
       },
       "parent": "slot_6_1578251338478",
+      "context": {},
       "event_name": "focus",
       "dialog_node": "handler_6_1578251338487",
       "previous_sibling": "handler_10_1578251338487"
@@ -477,6 +686,79 @@
       "output": {
         "text": {
           "values": [
+            "$person , you need to respond the question"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1578083311345",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "#no_sabe",
+      "event_name": "nomatch",
+      "dialog_node": "handler_3_1578841299700",
+      "previous_sibling": "handler_6_1578512855026"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_5_1578083311345",
+      "context": {
+        "tipo_agridulce": "salty"
+      },
+      "conditions": "@no && @tipo_agridulce:sweet",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1578512855026",
+      "previous_sibling": "handler_9_1578511666897"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Do you like sweet o salty food?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1578083311345",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1578083311361",
+      "previous_sibling": "handler_1_1578083311361"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_5_1578083311345",
+      "context": {
+        "tipo_agridulce": "sweet"
+      },
+      "conditions": "@no && @tipo_agridulce:salty",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1578511666897",
+      "previous_sibling": "handler_10_1578083311361"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1578083311345",
+      "context": {
+        "tipo_agridulce": "@tipo_agridulce"
+      },
+      "conditions": "@tipo_agridulce",
+      "event_name": "input",
+      "dialog_node": "handler_1_1578083311361"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
             "Gluten is what is normally in barley in wheat in rye and many people eat a gluten-free diet"
           ],
           "selection_policy": "sequential"
@@ -486,7 +768,7 @@
       "next_step": {
         "behavior": "reprompt"
       },
-      "conditions": "#ayuda_gluten && @tipo_gluten",
+      "conditions": "#ayuda_gluten",
       "event_name": "filled",
       "dialog_node": "handler_9_1578252151296",
       "previous_sibling": "handler_2_1578083357489"
@@ -494,14 +776,62 @@
     {
       "type": "event_handler",
       "output": {
+        "generic": []
+      },
+      "parent": "slot_6_1578083357472",
+      "context": {
+        "tipo_gluten": "gluten"
+      },
+      "conditions": "@no && @tipo_gluten:(gluten free)",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1578515329115",
+      "previous_sibling": "handler_9_1578515208034"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_6_1578083357472",
+      "context": {
+        "tipo_gluten": "gluten free"
+      },
+      "conditions": "@no && @tipo_gluten:gluten",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1578515208034",
+      "previous_sibling": "handler_9_1578252151296"
+    },
+    {
+      "type": "event_handler",
+      "output": {
         "text": {
           "values": [
-            "Meals of your choice use foods that have gluten or that don't have gluten"
+            "$person , you need to respond the question"
           ],
           "selection_policy": "sequential"
         }
       },
       "parent": "slot_6_1578083357472",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "#no_sabe",
+      "event_name": "nomatch",
+      "dialog_node": "handler_10_1578841339174",
+      "previous_sibling": "handler_4_1578515329115"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Meals of your choice use foods that have gluten or no have gluten"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1578083357472",
+      "context": {},
       "event_name": "focus",
       "dialog_node": "handler_2_1578083357489",
       "previous_sibling": "handler_10_1578083357489"
@@ -516,6 +846,401 @@
       "conditions": "@tipo_gluten",
       "event_name": "input",
       "dialog_node": "handler_10_1578083357489"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dishes that have more match with your preferences are pescado al horno , escabeche de pescado <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"creole\" &&        $tipo_carne==\"fish\" &&    $tipo_agridulce==\"salty\" &&            $tipo_grasa==\"light\" && $tipo_gluten==\"gluten free\" &&   $tipo_picante==\"without spicy\"",
+      "dialog_node": "response_3_1578200238966",
+      "previous_sibling": "response_2_1578199540457"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1578082498814",
+      "variable": "$tipo_agridulce",
+      "dialog_node": "slot_5_1578083311345",
+      "previous_sibling": "slot_4_1578083263582"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1578082498814",
+      "variable": "$tipo_carne",
+      "dialog_node": "slot_4_1578083263582",
+      "previous_sibling": "slot_2_1578082990634"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "the dish that have more match with your preferences is  sashimi <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"oriental\" &&  $tipo_picante==\"spicy\" && $tipo_carne==\"fish\" &&     $tipo_grasa==\"light\"",
+      "dialog_node": "response_8_1578201413647",
+      "previous_sibling": "response_7_1578201288358"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dishes that have more match with your preferences are sopa de gallina , aji de gallina <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"creole\" &&   $tipo_carne==\"hen\" &&  $tipo_grasa==\"moderate\" && $tipo_gluten==\"gluten\"",
+      "dialog_node": "response_2_1578199540457",
+      "previous_sibling": "response_7_1578198258399"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dish that have more match with your preferences is  ternera picante de Hunan <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"oriental\" &&    $tipo_picante==\"spicy\" &&   $tipo_carne==\"beef\"",
+      "dialog_node": "response_5_1578201171907",
+      "previous_sibling": "response_1_1578201051023"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dish that have more match with your preferences is  sopa de naruto <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"pastas\" &&     $tipo_carne==\"fish\" &&  $tipo_agridulce==\"salty\" && $tipo_picante==\"without spicy\"",
+      "dialog_node": "response_9_1578201739926",
+      "previous_sibling": "response_7_1578201640186"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1578082498814",
+      "variable": "$tipo_comida",
+      "dialog_node": "slot_4_1578082557470",
+      "previous_sibling": "response_9_1578201892393"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dishes that have more match with your preferences are arroz con pollo , estofado de pollo o carapulcra <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"creole\" && $tipo_carne==\"chicken\" &&    $tipo_agridulce==\"salty\" &&   $tipo_gluten==\"gluten\"",
+      "dialog_node": "response_1_1578198063164",
+      "previous_sibling": "response_10_1578199364003"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dish that have more match with your preferences is tallarines chinos con pollo <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"pastas\" &&     $tipo_carne==\"chicken\" &&    $tipo_agridulce==\"salty\" &&   $tipo_grasa==\"fatty\"",
+      "dialog_node": "response_1_1578588870352",
+      "previous_sibling": "response_8_1578201413647"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dish that have more match with your preferences is  pollo picante de Chongquing <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"oriental\" &&     $tipo_picante==\"spicy\" &&    $tipo_agridulce==\"salty\" &&  $tipo_carne==\"chicken\"",
+      "dialog_node": "response_1_1578201051023",
+      "previous_sibling": "response_2_1578200954821"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dish that have more match with your preferences is chi jua kay <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"oriental\" &&      $tipo_carne==\"chicken\" &&     $tipo_agridulce==\"salty\" &&  $tipo_grasa==\"moderate\" && $tipo_picante==\"without spicy\"",
+      "dialog_node": "response_6_1578200806774",
+      "previous_sibling": "response_4_1578200605574"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dish that have more match with your preferences is  carne de res con brocoli <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"oriental\" &&    $tipo_carne==\"beef\" &&  $tipo_gluten==\"gluten free\"",
+      "dialog_node": "response_7_1578201288358",
+      "previous_sibling": "response_5_1578201171907"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dish that have more match with your preferences is lomo saltado <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"creole\" &&    $tipo_carne==\"beef\" &&   $tipo_agridulce==\"salty\" &&  $tipo_grasa==\"fatty\" && $tipo_gluten==\"gluten\"",
+      "dialog_node": "response_10_1578199364003",
+      "previous_sibling": "response_5_1578085337897"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dishes that have more match with your preferences are seco de carne , picante de carne , estofado de res <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"creole\" &&     $tipo_carne==\"beef\" &&      $tipo_agridulce==\"salty\" &&   $tipo_picante==\"without spicy\" && $tipo_gluten==\"gluten\"",
+      "dialog_node": "response_7_1578198258399",
+      "previous_sibling": "response_1_1578198063164"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dishes that have more match with your preferences are filete de pescado a la criolla ,adobe de pescado <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"creole\" &&          $tipo_carne==\"fish\" &&      $tipo_agridulce==\"salty\" &&   $tipo_grasa==\"moderate\" && $tipo_gluten==\"gluten\"",
+      "dialog_node": "response_1_1578199694577",
+      "previous_sibling": "response_4_1578200521420"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We did not find a meal to your preferences, try asking the questions again, thanks <br /> We  need to know about your experiencie <br/ > Can you tell us about that"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "context": {},
+      "conditions": "true",
+      "dialog_node": "response_9_1578201892393",
+      "previous_sibling": "response_3_1578249513165"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dish that have more match w ith your preferences is  pasta con salsa dulce <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"pastas\" &&            $tipo_agridulce==\"sweet\" &&      $tipo_grasa==\"moderate\" &&    $tipo_carne==\"chicken\" ||  $tipo_carne==\"beef\"",
+      "dialog_node": "response_3_1578249513165",
+      "previous_sibling": "response_3_1578201816268"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1578082498814",
+      "variable": "$tipo_gluten",
+      "dialog_node": "slot_6_1578083357472",
+      "previous_sibling": "slot_4_1578083338201"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1578082498814",
+      "variable": "$tipo_grasa",
+      "dialog_node": "slot_4_1578083338201",
+      "previous_sibling": "slot_5_1578083311345"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dish that have more match with your preferences is yakisoba <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"pastas\" &&    $tipo_carne==\"beef\" && $tipo_agridulce==\"salty\"",
+      "dialog_node": "response_3_1578201816268",
+      "previous_sibling": "response_9_1578201739926"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dish that have more match with your preferences is ceviche <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"creole\" &&    $tipo_picante==\"spicy\" &&   $tipo_carne==\"fish\" &&      $tipo_grasa==\"light\" && $tipo_gluten==\"gluten free\"",
+      "dialog_node": "response_4_1578200521420",
+      "previous_sibling": "response_3_1578200238966"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dishes that have more match with your preferences are pasta con salsa a la huancaina, pasta a la carbonara, pasta con salsa a la bolognesa, pasta con salsa alfedro <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"pastas\" &&       $tipo_carne==\"chicken\" &&      $tipo_agridulce==\"salty\" && $tipo_grasa==\"moderate\"",
+      "dialog_node": "response_7_1578201640186",
+      "previous_sibling": "response_1_1578588870352"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dishes that have more match with your preferences are ti pa kay, pollo teriyaki , pollo a la miel <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"oriental\" &&       $tipo_carne==\"chicken\" &&      $tipo_agridulce==\"sweet\" &&  $tipo_grasa==\"moderate\" && $tipo_picante==\"without spicy\"",
+      "dialog_node": "response_2_1578200954821",
+      "previous_sibling": "response_6_1578200806774"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dish that have more match with your preferences is guiso de pescado al vapor <br />  what's your impression of the recommended meal plate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "conditions": "$tipo_comida==\"creole\" &&      $tipo_carne==\"fish\" &&     $tipo_agridulce==\"salty\" &&   $tipo_grasa==\"light\" && $tipo_gluten==\"gluten\"",
+      "dialog_node": "response_4_1578200605574",
+      "previous_sibling": "response_1_1578199694577"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1578082498814",
+      "variable": "$tipo_picante",
+      "dialog_node": "slot_2_1578082990634",
+      "previous_sibling": "slot_4_1578082557470"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The dishes that have more match with your preferences are lengua guisada picante , mondongo criollo "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578082498814",
+      "context": {},
+      "conditions": "$tipo_comida==\"creole\" &&    $tipo_picante==\"spicy\" &&  $tipo_carne==\"beef\" && $tipo_grasa && $tipo_gluten==\"gluten\"",
+      "dialog_node": "response_5_1578085337897"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1578083513327",
+      "dialog_node": "slot_6_1578083692129",
+      "previous_sibling": "handler_1_1578083888212"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_4_1578083513327",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1578083888212"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "$person , you need to respond the question"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1578082557470",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "#no_sabe",
+      "event_name": "nomatch",
+      "dialog_node": "handler_3_1578840946354",
+      "previous_sibling": "handler_9_1578082557500"
     },
     {
       "type": "event_handler",
@@ -533,6 +1258,7 @@
         ]
       },
       "parent": "slot_4_1578082557470",
+      "context": {},
       "event_name": "focus",
       "dialog_node": "handler_9_1578082557500",
       "previous_sibling": "handler_3_1578082557500"
@@ -564,552 +1290,16 @@
       "dialog_node": "handler_5_1578083692159"
     },
     {
-      "type": "event_handler",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Do you like spicy food or without spicy"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "slot_2_1578082990634",
-      "event_name": "focus",
-      "dialog_node": "handler_9_1578082990639",
-      "previous_sibling": "handler_8_1578082990639"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_2_1578082990634",
-      "context": {
-        "tipo_picante": "@tipo_picante"
-      },
-      "conditions": "@tipo_picante",
-      "event_name": "input",
-      "dialog_node": "handler_8_1578082990639"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Do you like sweet o salty food?"
-          ],
-          "selection_policy": "sequential"
+      "type": "frame",
+      "title": "enunciado_preguntitas",
+      "metadata": {
+        "_customization": {
+          "mcr": true
         }
       },
-      "parent": "slot_5_1578083311345",
-      "event_name": "focus",
-      "dialog_node": "handler_10_1578083311361",
-      "previous_sibling": "handler_1_1578083311361"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_5_1578083311345",
-      "context": {
-        "tipo_agridulce": "@tipo_agridulce"
-      },
-      "conditions": "@tipo_agridulce",
-      "event_name": "input",
-      "dialog_node": "handler_1_1578083311361"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dish that have more match with your preferences is chi jua kay"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"oriental\" &&   $tipo_carne==\"chicken\" &&  $tipo_agridulce==\"salty\" && $tipo_salsa_integradas==\"sauce\"",
-      "dialog_node": "response_6_1578200806774",
-      "previous_sibling": "response_4_1578200605574"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dishes that have more match wit your preferences are seco de carne , picante de carne , estofado de res"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"creole\" &&  $tipo_carne==\"beef\" &&   $tipo_agridulce==\"salty\" && $tipo_grasa",
-      "dialog_node": "response_7_1578198258399",
-      "previous_sibling": "response_5_1578085337897"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_9_1578082498814",
-      "variable": "$tipo_agridulce",
-      "dialog_node": "slot_5_1578083311345",
-      "previous_sibling": "slot_4_1578083263582"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dish that have more match with your preferences is  pasta con salsa dulce"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"pastas\" &&   $tipo_agridulce==\"sweet\" && $tipo_salsa_integradas==\"sauce\"",
-      "dialog_node": "response_3_1578249513165",
-      "previous_sibling": "response_3_1578201816268"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dish that have more match with your preferences is  pollo picante de Chongquing"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"oriental\" &&    $tipo_picante==\"spicy\" &&   $tipo_agridulce==\"salty\" &&  $tipo_salsa_integradas==\"without sauce\" && $tipo_carne==\"chicken\"",
-      "dialog_node": "response_1_1578201051023",
-      "previous_sibling": "response_2_1578200954821"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dish that have more match with your preferences is  carne de res con brocoli"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"oriental\" &&   $tipo_carne==\"beef\" &&  $tipo_salsa_integradas==\"without sauce\" && $tipo_gluten==\"gluten free\"",
-      "dialog_node": "response_7_1578201288358",
-      "previous_sibling": "response_5_1578201171907"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "We did not find a meal to your preferences, try asking the questions again, thanks"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "true",
-      "dialog_node": "response_9_1578201892393",
-      "previous_sibling": "response_10_1578250707939"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dish that have more match with your preferences is guiso de pescado al vapor"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"creole\" &&      $tipo_carne==\"fish\" &&     $tipo_agridulce==\"salty\" &&    @tipo_grasa==\"light\" &&   @tipo_picante==\"without spicy\" &&  @tipo_gluten==\"free gluten\" && @tipo_salsas_integradas==\"without sauce\"",
-      "dialog_node": "response_4_1578200605574",
-      "previous_sibling": "response_4_1578200521420"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dish that have more match with your preferences is  ternera picante de Hunan"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"oriental\" &&   $tipo_picante==\"spicy\" &&  $tipo_carne==\"beef\" && $tipo_salsa_integradas==\"without sauce\"",
-      "dialog_node": "response_5_1578201171907",
-      "previous_sibling": "response_1_1578201051023"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dish that have more match with your preferences is  sopa de naruto"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"pastas\" &&  $tipo_carne==\"fish\" && $tipo_salsa_integradas==\"without sauce\"",
-      "dialog_node": "response_9_1578201739926",
-      "previous_sibling": "response_7_1578201640186"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dishes that have more match wit your preferences are pasta con salsa a la huancaina, pasta a la carbonara, pasta con salsa a la bolognesa, pasta con salsa alfedro"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"pastas\" &&   $tipo_carne==\"chicken\" &&  $tipo_agridulce==\"salty\" && $tipo_salsa_integradas==\"sauce\"",
-      "dialog_node": "response_7_1578201640186",
-      "previous_sibling": "response_4_1578201536918"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_9_1578082498814",
-      "variable": "$tipo_salsa_integradas",
-      "dialog_node": "slot_5_1578083366428",
-      "previous_sibling": "slot_6_1578083357472"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dish that have more match with your preferences is ceviche"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"creole\" &&  $tipo_picante==\"spicy\" && $tipo_carne==\"fish\" &&    $tipo_grasa==\"light\"",
-      "dialog_node": "response_4_1578200521420",
-      "previous_sibling": "response_3_1578200238966"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dishes that have more match wit your preferences are arroz con pollo , estofado de pollo o carapulcra"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"creole\" &&  $tipo_carne==\"chiken\" && $tipo_agridulce==\"salty\" && $tipo_grasa",
-      "dialog_node": "response_1_1578198063164",
-      "previous_sibling": "response_7_1578198258399"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_9_1578082498814",
-      "variable": "$tipo_picante",
-      "dialog_node": "slot_2_1578082990634",
-      "previous_sibling": "slot_4_1578082557470"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dish that have more match with your preferences is gallina al horno al estilo oriental"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"oriental\" &&  $tipo_carne==\"hen\" && $tipo_agridulce==\"salty\"",
-      "dialog_node": "response_10_1578250707939",
-      "previous_sibling": "response_2_1578250278997"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dishes that have more match wit your preferences are pescado al horno , escabeche de pescado"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"creole\" &&    $tipo_carne==\"fish\" &&   $tipo_agridulce==\"salty\" &&        $tipo_grasa==\"light\" && $tipo_gluten==\"gluten free\"",
-      "dialog_node": "response_3_1578200238966",
-      "previous_sibling": "response_2_1578199540457"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "the dish that have more match with your preferences is  sashimi"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"oriental\" &&  $tipo_picante==\"spicy\" && $tipo_carne==\"fish\" &&     $tipo_grasa==\"light\"",
-      "dialog_node": "response_8_1578201413647",
-      "previous_sibling": "response_7_1578201288358"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_9_1578082498814",
-      "variable": "$tipo_carne",
-      "dialog_node": "slot_4_1578083263582",
-      "previous_sibling": "slot_2_1578082990634"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dish that have more match with your preferences is lomo saltado"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"creole\" &&   $tipo_carne==\"beef\" &&  $tipo_agridulce==\"salty\" && $tipo_grasa==\"fatty\"",
-      "dialog_node": "response_10_1578199364003",
-      "previous_sibling": "response_1_1578198063164"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_9_1578082498814",
-      "variable": "$tipo_grasa",
-      "dialog_node": "slot_4_1578083338201",
-      "previous_sibling": "slot_5_1578083311345"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dishes that have more match wit your preferences are ti pa kay, pollo teriyaki , pollo a la miel"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"oriental\" &&   $tipo_carne==\"chicken\" &&  $tipo_agridulce==\"sweet\" && $tipo_salsa_integradas==\"sauce\"",
-      "dialog_node": "response_2_1578200954821",
-      "previous_sibling": "response_6_1578200806774"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dish that have more match with your preferences is salsa de tomates con filetes de pescado"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"pastas\" &&   $tipo_carne==\"fish\" && $tipo_salsa_integradas==\"sauce\"",
-      "dialog_node": "response_2_1578250278997",
-      "previous_sibling": "response_2_1578249952247"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_9_1578082498814",
-      "variable": "$tipo_gluten",
-      "dialog_node": "slot_6_1578083357472",
-      "previous_sibling": "slot_4_1578083338201"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dish that have more match with your preferences is yakisoba"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"pastas\" &&  $tipo_carne==\"beef\" && $tipo_salsa_integradas==\"sauce\"",
-      "dialog_node": "response_3_1578201816268",
-      "previous_sibling": "response_9_1578201739926"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_9_1578082498814",
-      "variable": "$tipo_comida",
-      "dialog_node": "slot_4_1578082557470",
-      "previous_sibling": "response_9_1578201892393"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dishes that have more match wit your preferences are sopa de gallina , aji de gallina"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"creole\" &&  $tipo_carne==\"hen\" && $tipo_grasa==\"moderate\"",
-      "dialog_node": "response_2_1578199540457",
-      "previous_sibling": "response_10_1578199364003"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dishes that have more match wit your preferences are Spagetti con pescado blanco y aceitunas, pasta de pescado con espinacas"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"pastas\" &&   $tipo_carne==\"fish\" &&  $tipo_agridulce==\"salty\" && $tipo_salsa_integradas==\"without sauce\"",
-      "dialog_node": "response_2_1578249952247",
-      "previous_sibling": "response_3_1578249513165"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dish that have more match with your preferences is  tallarines chinos con pollo"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"pastas\" &&   $tipo_carne==\"chicken\" &&  $tipo_agridulce==\"salty\" && $tipo_salsa_integradas==\"without sauce\"",
-      "dialog_node": "response_4_1578201536918",
-      "previous_sibling": "response_8_1578201413647"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "The dishes that have more match wit your preferences are lengua guisada picante , mondongo criollo"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_9_1578082498814",
-      "conditions": "$tipo_comida==\"creole\" &&   $tipo_picante==\"spicy\" && $tipo_carne==\"beef\" && $tipo_grasa",
-      "dialog_node": "response_5_1578085337897"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Do you have preferences to fatty , moderate or light food?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_4_1578083338201",
-      "event_name": "focus",
-      "dialog_node": "handler_5_1578083338212",
-      "previous_sibling": "handler_7_1578083338212"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_4_1578083338201",
-      "context": {
-        "tipo_grasa": "@tipo_grasa"
-      },
-      "conditions": "@tipo_grasa",
-      "event_name": "input",
-      "dialog_node": "handler_7_1578083338212"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Hi, I'm Charlo Bot and I'm here to recommend the best dish according to your preferences."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "Bienvenido",
-      "disabled": true,
-      "conditions": "welcome",
-      "dialog_node": "response_3_1578084341112",
-      "previous_sibling": "slot_6_1578251338478"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            ""
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "Bienvenido",
-      "disabled": true,
-      "conditions": "#saludos",
-      "dialog_node": "response_2_1578084354059",
-      "previous_sibling": "response_3_1578084341112"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "Bienvenido",
-      "variable": "$person",
-      "dialog_node": "slot_6_1578251338478",
-      "previous_sibling": "node_5_1578271080319"
-    },
-    {
-      "type": "standard",
-      "title": "no_quiero",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "No problem $person see you later"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "Bienvenido",
-      "conditions": "#no_quiero",
-      "dialog_node": "node_5_1578271080319"
+      "conditions": "#acepto",
+      "dialog_node": "node_9_1578082498814",
+      "previous_sibling": "Bienvenido"
     },
     {
       "type": "standard",
@@ -1130,6 +1320,85 @@
       "conditions": "#adios",
       "dialog_node": "node_9_1578271174697",
       "previous_sibling": "node_3_1578251597663"
+    },
+    {
+      "type": "standard",
+      "title": "reseteo",
+      "output": {
+        "text": {
+          "values": [
+            "well we start again my dear $person"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "tipo_carne": null,
+        "tipo_grasa": null,
+        "tipo_comida": null,
+        "tipo_gluten": null,
+        "tipo_picante": null,
+        "tipo_agridulce": null
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bienvenido"
+      },
+      "conditions": "#reseteo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1578083513327",
+      "previous_sibling": "node_6_1578702294098"
+    },
+    {
+      "type": "standard",
+      "title": "respuesta_encuesta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks to tell me your opinion ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "respuesta": "<?input_text?>"
+      },
+      "conditions": "$respuesta==null",
+      "dialog_node": "node_6_1578702294098",
+      "previous_sibling": "node_9_1578082498814"
+    },
+    {
+      "type": "standard",
+      "title": "gracias",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "you are welcome $person , it was a pleasure to helped you "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#gracias",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1578251597663",
+      "previous_sibling": "node_4_1578083513327"
     },
     {
       "type": "standard",
@@ -1154,74 +1423,6 @@
       "dialog_node": "En otras cosas",
       "previous_sibling": "node_9_1578271174697",
       "disambiguation_opt_out": true
-    },
-    {
-      "type": "standard",
-      "title": "gracias",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "you are welcome $person , it was a pleasure to helped you "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "conditions": "#gracias",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_3_1578251597663",
-      "previous_sibling": "node_4_1578083513327"
-    },
-    {
-      "type": "standard",
-      "title": "reseteo",
-      "output": {
-        "text": {
-          "values": [
-            "well we start again my dear $person"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "context": {
-        "tipo_carne": null,
-        "tipo_grasa": null,
-        "tipo_comida": null,
-        "tipo_gluten": null,
-        "tipo_picante": null,
-        "tipo_agridulce": null,
-        "tipo_salsa_integradas": null
-      },
-      "metadata": {
-        "_customization": {
-          "mcr": false
-        }
-      },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "Bienvenido"
-      },
-      "conditions": "#reseteo",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_4_1578083513327",
-      "previous_sibling": "node_9_1578082498814"
-    },
-    {
-      "type": "frame",
-      "title": "enunciado_preguntitas",
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "#preguntas_generales",
-      "dialog_node": "node_9_1578082498814",
-      "previous_sibling": "Bienvenido"
     },
     {
       "type": "frame",
@@ -1261,10 +1462,77 @@
     },
     {
       "text": "gluten free"
+    },
+    {
+      "text": "i can't eat food that have gluten"
+    },
+    {
+      "text": "i don't eat food that have gluten in their ingredients"
+    },
+    {
+      "text": "i don't like gluten"
+    },
+    {
+      "text": "i don't like to eat food that have ingredients with gluten"
+    },
+    {
+      "text": "i don't want to eat dishes where their ingredients have gluten"
+    },
+    {
+      "text": "i hate it spicy, it makes me in bad mood"
+    },
+    {
+      "text": "i like to eat pasta food"
+    },
+    {
+      "text": "i love spicy"
+    },
+    {
+      "text": "i prefer food that not has gluten"
+    },
+    {
+      "text": "i prefer without gluten"
+    },
+    {
+      "text": "i think it is delicuos"
+    },
+    {
+      "text": "i think that i like the dish"
+    },
+    {
+      "text": "it is delicius"
+    },
+    {
+      "text": "i would like to eat hen"
+    },
+    {
+      "text": "light food"
+    },
+    {
+      "text": "my name is andrea mendoza"
+    },
+    {
+      "text": "well normally i eat sapicy food"
+    },
+    {
+      "text": "witout gluten"
     }
   ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title"
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    },
+    "spelling_auto_correct": true
+  },
   "learning_opt_out": false,
   "name": "Restaurante",
   "language": "en",
-  "description": "Chatbot for Restaurant"
+  "description": ""
 }
